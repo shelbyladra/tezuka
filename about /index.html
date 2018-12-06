@@ -1,29 +1,81 @@
-<!doctype html>
+<! doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8"/>
-        <title>Osamu Tezuka About</title>
 
-        <!--View Port-->
-        <meta name="viewport" content="width=device-width, initial-scalle=1" />
-        
-        <!--Google Fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Bangers|Coiny" rel="stylesheet">
+<head>
+    <meta charset="utf-8"/>
+    <title>About</title>
+   
+    <!--VIEW PORT-->
+    <meta name="viewport" content="width=device-width, initial-scalle=1" />
 
-        <!--Main CSS-->
-        <link href="css/style.css" rel="stylesheet" type="text/css" />        
-    </head>
+    <!--GOOGLE FONTS-->
+    <link href="https://fonts.googleapis.com/css?family=Bangers|Coiny" rel="stylesheet">
 
-    <body>
+    <!--MAIN CSS-->
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
         <header class="site-header">
-            <div class="site-identity">
-             <a href="#"><img src="img/logo.png" alt="logo" /></a> 
-             <h1>Osamu Tezuka</h1>
-             <h2>A Life in Manga and Anime</h2>  
+                <div class="site-identity">
+                    <a href="index.html"><img src="img/logo.png" alt="tezuka/index.html" class="headerlogo" />
+                    </div>
+                <div class="text-centered">
+                    <h2>Osamu Tezuka</h2>
+                </div>
+                    <h3>Life in Manga and Anime</h3>
+     <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                <a href="#">Home</a>
+                <a href="#">Manga</a>
+                <a href="#">Animation Studio</a>
+                <a href="#">Gallery</a>
             </div>
-            <div> </div>
+            <span style="font-size:40px;cursor:pointer" onclick="openNav()">☰</span>
+            </header>
+<main>
+    <section class="hero">
+        <div class="left">
+            <h4>About</h4>
+            <p>Osamu Tezuka (手塚 治虫) is a manga author 
+                    and creator of many of the first Japanese 
+                    animation. While Tezuka  best known 
+                    creation is Astro Boy (1952-68), he drew 
+                    more than 150,000 pages of manga in his 
+                    lifetime – touching on every style and 
+                    genre. </p>
+                </div>
+        <div class="right"></div>
+  </section>
+           
+  <section class="home-section1">
+        <div class="left">Left</div>
+        <div class="right">Right</div>
+      </section>
         
+    
+  
 
-        </header>
-    </body>
+</main>
+
+<header class="site-footer">
+    <nav class="site-navigation">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Manga</a></li>
+            <li><a href="#">Animation Studio</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+
+
+
+
+    
+    <script src="js/script.js"></script>
+
+</body>
 </html>

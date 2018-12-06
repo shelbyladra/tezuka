@@ -1,1 +1,33 @@
-$color-bg: black
+/* VARIABLES */
+$color-background: rgb(199, 22, 51);
+$type-base: "Coiny",cursive;
+$type-heading: "Bangers", cursive;
+$type-linewidth: 38em;
+$type-color-light-grey: rgba(0,0,0,.5);
+
+
+body {
+    background: $color-background;
+}
+
+//Color
+$accent-color: #b95292;
+$link-color:#8080ff;
+$darklinks-color:#280080;
+$hero-bg-color: #ffe1f1;
+$type-color: #333;
+$type-color-links: #39c;
+$type-color-linksdark: #069;
+
+
+//BREAKPOINTS
+$breakpoint-small: 768px;
+$breakpoint-medium: 992px;
+$breakpoint-large: 1250px;
+
+@import "partials/toc";
+@import "partials/typography"; 
+@import "partials/components";
+@import "partials/layout";
+@import "partials/structure";
+@import "partials/media";
