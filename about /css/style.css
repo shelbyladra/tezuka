@@ -358,10 +358,13 @@ padding: 30px;
     .hero .left {
       background: black;
       width: 50%;
-      height:200px;
       padding: 5%;
         clip-path: polygon(0 0, 100% 1%, 73% 100%, 0 100%);
        margin: 0;
+    }
+    .hero .left p{
+      padding-right: 20%
+
     }
 
     .hero .right {
@@ -370,6 +373,10 @@ padding: 30px;
       padding: 5% 10%;
         clip-path: polygon(13% 0%, 100% 0%, 100% 100%, 0% 100%);
        margin: 0 0 0 -5%;
+    }
+
+    .home-section1 .left{
+      background: yellow;
     }
 
   
@@ -406,3 +413,4 @@ padding: 30px;
 h3{
   color: #222222;
 }
+
