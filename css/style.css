@@ -126,7 +126,7 @@ body {
     margin: 1em auto 6em auto; }
   
   /* COMPONENTS */
-  .button,
+  /*.button,
   a.button {
     font-size: .8em;
     display: inline-block;
@@ -159,7 +159,6 @@ body {
   
   /* LAYOUT */
   * {
-    -webkit-box-sizing: border-box;
     box-sizing: border-box; }
   
   body {
@@ -347,8 +346,12 @@ padding: 30px;
     justify-content: center; }
   
   /* Sections */
-  section {
-    padding: 3em 0; }
+  section {    
+    padding-top: 3px;
+    padding-right: 0px;
+    padding-bottom: 3px;
+    padding-left: 0px;
+   }
   
   /* HERO */
   .hero {
@@ -377,6 +380,18 @@ padding: 30px;
 
     .home-section1 .left{
       background: yellow;
+      width: 50%;
+      padding: 5%;
+        clip-path: polygon(0 0, 100% 1%, 73% 100%, 0 100%);
+       margin: 0;
+    }
+
+    .home-section1 .right{
+      background: green;
+      width: 60%;
+      padding: 5% 10%;
+        clip-path: polygon(13% 0%, 100% 0%, 100% 100%, 0% 100%);
+       margin: 0 0 0 -5%;
     }
 
   
