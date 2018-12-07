@@ -349,7 +349,7 @@ padding: 30px;
   section {    
     padding-top: 3px;
     padding-right: 0px;
-    padding-bottom: 3px;
+    padding-bottom: 1px;
     padding-left: 0px;
    }
   
@@ -371,7 +371,10 @@ padding: 30px;
     }
 
     .hero .right {
-      background:url(../img/osamu-tezuka-manga-artist.jpg) center top no-repeat;
+      background:url(../img/osamu-tezuka-manga-artist.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
       width: 60%;
       padding: 5% 10%;
         clip-path: polygon(13% 0%, 100% 0%, 100% 100%, 0% 100%);
@@ -384,10 +387,10 @@ padding: 30px;
       background-repeat: no-repeat;
       background-position: center;
       width: 50%;
-      height: 20%;
+      height: 40%;
       min-height: 300px;
       padding: 5%;
-        clip-path: polygon(0 0, 100% 0, 75% 83%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 83% 83%, 0% 100%);
        margin: 0;
     }
 
@@ -396,11 +399,14 @@ padding: 30px;
       margin: 2% 0;}
 
     .home-section1 .right {
-      background:green;
-      width: 50%;
+      background:url(../img/tezuk1961.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 60%;
       padding: 5% 10%;
         clip-path: polygon(13% 0%, 100% 0%, 100% 100%, 0% 100%);
-       margin: 2% -5% 2% -5%
+       margin: 0 0 0 -5%;
     }
 
 
